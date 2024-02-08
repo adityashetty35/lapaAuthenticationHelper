@@ -1,0 +1,23 @@
+{
+  "name": "lapaauthenticationhelper",
+  "version": "0.0.1",
+  "description": "Authentication helper for personal server.",
+  "main": "index.js",
+  "scripts": {
+    "test": "",
+    "dev": "tsc && node dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aadityashetty35/lapaAuthenticationHelper"
+  },
+  "author": "Aaditya Sangishetty",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aadityashetty35/lapaAuthenticationHelper/issues"
+  },
+  "homepage": "https://github.com/aadityashetty35/lapaAuthenticationHelper#readme",
+  "devDependencies": {
+    "typescript": "^5.3.3"
+  }
+}
