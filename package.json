@@ -14,9 +14,9 @@
   "author": "Aaditya Sangishetty",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/aadityashetty35/lapaAuthenticationHelper/issues"
+    "url": "https://github.com/adityashetty35/lapaAuthenticationHelper/issues"
   },
-  "homepage": "https://github.com/aadityashetty35/lapaAuthenticationHelper#readme",
+  "homepage": "https://github.com/adityashetty35/lapaAuthenticationHelper#readme",
   "devDependencies": {
     "typescript": "^5.3.3"
   }
