@@ -9,6 +9,9 @@ const register = async (
     let url: string = `${config.lapaAuthenticationProtocol}://${config.lapaAuthenticationIp}:${config.lapaAuthenticationPort}/register`;
     const response = await fetch(url, {
       method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
       body: JSON.stringify({
         email: email,
         password: password,
@@ -17,7 +20,7 @@ const register = async (
     });
     console.log(response);
 
-    if (response.status === 201) {
+    if (response.ok) {
       const result = await response.json();
       console.log(`User registered successfully. ${result}`);
       return result;
