@@ -15,9 +15,12 @@ authentication helper for personal server.
 
 ## changelog
 
+### v0.0.2
+
+- Updated calls w.r.t lapa-file-store.
+
 ### v0.0.1
 
-- uploadFile() function is used for uploading the file to OSS with the help of lapaFileStoreUrl, file, filePurpose and systemRelativePath.
-
+- Javascript helper module for lapa-file-store calls.
 
 ## Feedback is appreciated. Thank you!
