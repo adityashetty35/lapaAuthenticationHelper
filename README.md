@@ -15,6 +15,10 @@ authentication helper for personal server.
 
 ## changelog
 
+### v0.0.3
+
+- Created class and taking config in the constructor.
+
 ### v0.0.2
 
 - Updated calls w.r.t lapa-file-store.
